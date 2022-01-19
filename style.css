@@ -1,0 +1,108 @@
+body {
+    background-color: blanchedalmond;
+    font-family: jua;
+}
+h1 {
+    text-align: center;
+    font-size: 70px;
+    padding-bottom: 40px; margin:5px;
+}
+.tle {
+    background-color: beige;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 30px; padding: 40px; border-radius: 30px;
+    width : 60%;
+}
+#list {
+    background-color: beige;
+    list-style: none;
+}
+#list li {
+    background-color: blanchedalmond;
+    padding: 15px; border-radius: 30px;
+    font-size: 30px;
+    line-height: 65px;
+    margin:20px;
+
+    -webkit-transition: all 350ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+	-moz-transition: all 350ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+	-ms-transition: all 350ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+	-o-transition: all 350ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+	transition: all 350ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+}
+#list li:hover {
+    color: black;
+	box-shadow: rgba(235, 215, 165, 0.7) 0 0px 0px 55px inset;
+}
+#input {
+    background-color: ghostwhite;
+    padding: 20px; border-radius: 30px; margin-left: 40px;
+    font-size: 30px;
+    width : 60%;
+    margin-bottom: 30px;
+    
+}
+#button { /* input button */
+    -webkit-transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+	-moz-transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+	-ms-transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+	-o-transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+	transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+    /* Transitional Buttons */
+    font-family: jua; font-size: 25px; padding: 25px; 
+    -webkit-appearance: none; -moz-appearance: none; appearance: none;
+    float: right;
+    border:0; border-radius: 20px; outline:0;
+    color: black;
+	box-shadow: rgba(30, 22, 54, 0.4) 0 0px 0px 2px inset;
+}
+#button:hover {
+	color: rgba(255, 255, 255, 0.85);
+	box-shadow: rgba(30, 22, 54, 0.7) 0 0px 0px 45px inset;
+}
+.button { /* remove button */
+    -webkit-transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+	-moz-transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+	-ms-transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+	-o-transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+	transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+    /* Transitional Buttons */
+    font-family: jua; font-size: 20px; padding: 15px; 
+    -webkit-appearance: none; -moz-appearance: none; appearance: none;
+    float: right;
+    border:0; border-radius: 50%; outline:0;
+    color: black;
+	box-shadow: rgba(30, 22, 54, 0.4) 0 0px 0px 2px inset;
+}
+.button:hover {
+	color: rgba(255, 255, 255, 0.85);
+	box-shadow: rgba(30, 22, 54, 0.7) 0 0px 0px 40px inset;
+}
+
+@media (max-width:768px) {
+    .tle {
+        width: 80%;
+        padding: 5px;margin: 5px;
+    }
+    h1 {
+        font-size: 35px;
+    }
+    #input {
+        font-size: 15px;
+        margin: 5px; padding: 5px; padding-left: 30px; 
+    }
+    #list li {
+        font-size: 12px;
+        margin: 5px; padding: 15px; line-height: 15px;
+    }
+    #button {
+        font-size: 15px;
+        margin: 5px; padding: 5px;
+    }
+    .button {
+        font-size: 5px;
+        margin: 1px; padding: 1px;
+    }
+}
