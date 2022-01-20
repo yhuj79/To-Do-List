@@ -68,10 +68,10 @@ class ConsumerThread extends Thread {
 	}
 }
 
-public class TabAndThreadEx2 extends JFrame {
+public class TabAndThreadEx extends JFrame {
 	MyLabel bar = new MyLabel(100);
 
-	TabAndThreadEx2(String title) {
+	TabAndThreadEx(String title) {
 		super(title);
 		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		Container c = getContentPane();
@@ -96,6 +96,6 @@ public class TabAndThreadEx2 extends JFrame {
 	}
 
 	public static void main(String[] args) {
-		new TabAndThreadEx2("Press Button Anything!");
+		new TabAndThreadEx("Press Button Anything!");
 	}
 }
