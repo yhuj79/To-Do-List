@@ -5,12 +5,52 @@
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  margin-top: 30px; padding: 40px; border-radius: 30px;
-  width : 60%;
+  margin-top: 30px;
+  padding: 40px;
+  border-radius: 30px;
+  width: 60%;
 }
 
 .App-title {
   text-align: center;
   font-size: 70px;
-  padding-bottom: 40px; margin:5px;
+  padding-bottom: 40px;
+  margin: 5px;
+}
+
+.App-input {
+  background-color: ghostwhite;
+  border: 3px solid gray;
+  padding: 20px;
+  border-radius: 30px;
+  margin-left: 40px;
+  font-size: 30px;
+  width: 60%;
+  margin-bottom: 30px;
+}
+
+.App-button {
+  -webkit-transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+  -moz-transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+  -ms-transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+  -o-transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+  transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+
+  font-family: jua;
+  font-size: 25px;
+  padding: 25px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  float: right;
+  border: 0;
+  border-radius: 20px;
+  outline: 0;
+  color: black;
+  box-shadow: rgba(30, 22, 54, 0.4) 0 0px 0px 2px inset;
+}
+
+.App-button:hover {
+  color: rgba(255, 255, 255, 0.85);
+  box-shadow: rgba(30, 22, 54, 0.7) 0 0px 0px 45px inset;
 }
